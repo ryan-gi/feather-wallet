@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		947439BE26826F02005718FE /* featherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947439BD26826F02005718FE /* featherApp.swift */; };
+		947439C026826F02005718FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947439BF26826F02005718FE /* ContentView.swift */; };
+		947439C226826F03005718FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947439C126826F03005718FE /* Assets.xcassets */; };
+		947439C526826F03005718FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947439C426826F03005718FE /* Preview Assets.xcassets */; };
+		947439C726826F03005718FE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947439C626826F03005718FE /* Persistence.swift */; };
+		947439CA26826F03005718FE /* feather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 947439C826826F03005718FE /* feather.xcdatamodeld */; };
+		947439D426826F04005718FE /* featherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947439D326826F04005718FE /* featherTests.swift */; };
+		947439DE26826F04005718FE /* featherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947439DD26826F04005718FE /* featherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		947439D026826F04005718FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947439B226826F02005718FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 947439B926826F02005718FE;
+			remoteInfo = feather;
+		};
+		947439DA26826F04005718FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947439B226826F02005718FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 947439B926826F02005718FE;
+			remoteInfo = feather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		947439BA26826F02005718FE /* feather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		947439BD26826F02005718FE /* featherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featherApp.swift; sourceTree = "<group>"; };
+		947439BF26826F02005718FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		947439C126826F03005718FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		947439C426826F03005718FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		947439C626826F03005718FE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		947439C926826F03005718FE /* feather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = feather.xcdatamodel; sourceTree = "<group>"; };
+		947439CF26826F04005718FE /* featherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = featherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		947439D326826F04005718FE /* featherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featherTests.swift; sourceTree = "<group>"; };
+		947439D926826F04005718FE /* featherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = featherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		947439DD26826F04005718FE /* featherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featherUITests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		947439B726826F02005718FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947439CC26826F04005718FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947439D626826F04005718FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		947439B126826F02005718FE = {
+			isa = PBXGroup;
+			children = (
+				947439BC26826F02005718FE /* feather */,
+				947439D226826F04005718FE /* featherTests */,
+				947439DC26826F04005718FE /* featherUITests */,
+				947439BB26826F02005718FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		947439BB26826F02005718FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947439BA26826F02005718FE /* feather.app */,
+				947439CF26826F04005718FE /* featherTests.xctest */,
+				947439D926826F04005718FE /* featherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947439BC26826F02005718FE /* feather */ = {
+			isa = PBXGroup;
+			children = (
+				947439BD26826F02005718FE /* featherApp.swift */,
+				947439BF26826F02005718FE /* ContentView.swift */,
+				947439C126826F03005718FE /* Assets.xcassets */,
+				947439C626826F03005718FE /* Persistence.swift */,
+				947439C826826F03005718FE /* feather.xcdatamodeld */,
+				947439C326826F03005718FE /* Preview Content */,
+			);
+			path = feather;
+			sourceTree = "<group>";
+		};
+		947439C326826F03005718FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				947439C426826F03005718FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		947439D226826F04005718FE /* featherTests */ = {
+			isa = PBXGroup;
+			children = (
+				947439D326826F04005718FE /* featherTests.swift */,
+			);
+			path = featherTests;
+			sourceTree = "<group>";
+		};
+		947439DC26826F04005718FE /* featherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				947439DD26826F04005718FE /* featherUITests.swift */,
+			);
+			path = featherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		947439B926826F02005718FE /* feather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947439E126826F04005718FE /* Build configuration list for PBXNativeTarget "feather" */;
+			buildPhases = (
+				947439B626826F02005718FE /* Sources */,
+				947439B726826F02005718FE /* Frameworks */,
+				947439B826826F02005718FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = feather;
+			productName = feather;
+			productReference = 947439BA26826F02005718FE /* feather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		947439CE26826F04005718FE /* featherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947439E426826F04005718FE /* Build configuration list for PBXNativeTarget "featherTests" */;
+			buildPhases = (
+				947439CB26826F04005718FE /* Sources */,
+				947439CC26826F04005718FE /* Frameworks */,
+				947439CD26826F04005718FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				947439D126826F04005718FE /* PBXTargetDependency */,
+			);
+			name = featherTests;
+			productName = featherTests;
+			productReference = 947439CF26826F04005718FE /* featherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		947439D826826F04005718FE /* featherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947439E726826F04005718FE /* Build configuration list for PBXNativeTarget "featherUITests" */;
+			buildPhases = (
+				947439D526826F04005718FE /* Sources */,
+				947439D626826F04005718FE /* Frameworks */,
+				947439D726826F04005718FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				947439DB26826F04005718FE /* PBXTargetDependency */,
+			);
+			name = featherUITests;
+			productName = featherUITests;
+			productReference = 947439D926826F04005718FE /* featherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		947439B226826F02005718FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					947439B926826F02005718FE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					947439CE26826F04005718FE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 947439B926826F02005718FE;
+					};
+					947439D826826F04005718FE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 947439B926826F02005718FE;
+					};
+				};
+			};
+			buildConfigurationList = 947439B526826F02005718FE /* Build configuration list for PBXProject "feather" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 947439B126826F02005718FE;
+			productRefGroup = 947439BB26826F02005718FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				947439B926826F02005718FE /* feather */,
+				947439CE26826F04005718FE /* featherTests */,
+				947439D826826F04005718FE /* featherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		947439B826826F02005718FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947439C526826F03005718FE /* Preview Assets.xcassets in Resources */,
+				947439C226826F03005718FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947439CD26826F04005718FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947439D726826F04005718FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		947439B626826F02005718FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947439C726826F03005718FE /* Persistence.swift in Sources */,
+				947439C026826F02005718FE /* ContentView.swift in Sources */,
+				947439BE26826F02005718FE /* featherApp.swift in Sources */,
+				947439CA26826F03005718FE /* feather.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947439CB26826F04005718FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947439D426826F04005718FE /* featherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947439D526826F04005718FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947439DE26826F04005718FE /* featherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		947439D126826F04005718FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 947439B926826F02005718FE /* feather */;
+			targetProxy = 947439D026826F04005718FE /* PBXContainerItemProxy */;
+		};
+		947439DB26826F04005718FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 947439B926826F02005718FE /* feather */;
+			targetProxy = 947439DA26826F04005718FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		947439DF26826F04005718FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		947439E026826F04005718FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		947439E226826F04005718FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"feather/Preview Content\"";
+				DEVELOPMENT_TEAM = 48M7F74MVK;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wallet.monero.feather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		947439E326826F04005718FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"feather/Preview Content\"";
+				DEVELOPMENT_TEAM = 48M7F74MVK;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wallet.monero.feather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		947439E526826F04005718FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48M7F74MVK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wallet.monero.featherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/feather.app/Contents/MacOS/feather";
+			};
+			name = Debug;
+		};
+		947439E626826F04005718FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48M7F74MVK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wallet.monero.featherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/feather.app/Contents/MacOS/feather";
+			};
+			name = Release;
+		};
+		947439E826826F04005718FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48M7F74MVK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wallet.monero.featherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = feather;
+			};
+			name = Debug;
+		};
+		947439E926826F04005718FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48M7F74MVK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wallet.monero.featherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = feather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		947439B526826F02005718FE /* Build configuration list for PBXProject "feather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947439DF26826F04005718FE /* Debug */,
+				947439E026826F04005718FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947439E126826F04005718FE /* Build configuration list for PBXNativeTarget "feather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947439E226826F04005718FE /* Debug */,
+				947439E326826F04005718FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947439E426826F04005718FE /* Build configuration list for PBXNativeTarget "featherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947439E526826F04005718FE /* Debug */,
+				947439E626826F04005718FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947439E726826F04005718FE /* Build configuration list for PBXNativeTarget "featherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947439E826826F04005718FE /* Debug */,
+				947439E926826F04005718FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		947439C826826F03005718FE /* feather.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				947439C926826F03005718FE /* feather.xcdatamodel */,
+			);
+			currentVersion = 947439C926826F03005718FE /* feather.xcdatamodel */;
+			path = feather.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 947439B226826F02005718FE /* Project object */;
+}
